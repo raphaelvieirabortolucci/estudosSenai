@@ -35,12 +35,12 @@ while tentativas!= 0:
         tentativas -= 1
 
     # Se a diferencia der que falta 20 numeros para o numero, diz que o chute foi baixo
-    elif diferencia <= -1 and diferencia <= 20:
+    elif diferencia <= -1 and diferencia <= 20 and chute <= 100 and chute > 0:
         print("chute baixo")
         tentativas -= 1
 
     # Se a diferencia ser que falta mais de 20 numeros, diz que o chute foi muito baixo
-    elif diferencia <= -20:
+    elif diferencia <= -20 and chute <= 100 and chute > 0:
         print("chute muito alto")
         tentativas -= 1
 
