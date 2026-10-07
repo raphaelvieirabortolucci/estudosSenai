@@ -19,7 +19,7 @@ numero = random.randint(1, 100)
 
 # Define que o laço continua enquanto houver tentativas 
 while tentativas!= 0:
-     # mostra as tentativas para o usuario, pede um chute ao usuario e faz a diferencia entre chute e o numero
+    # mostra as tentativas para o usuario, pede um chute ao usuario e faz a diferencia entre chute e o numero
     print(f"tentativas: {tentativas}")
     chute = int(input("digite um numero entre 1 e 100: "))
     diferencia = chute - numero
