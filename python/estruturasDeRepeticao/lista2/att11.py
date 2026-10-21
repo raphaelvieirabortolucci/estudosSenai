@@ -8,10 +8,24 @@ algoritmo do Crivo de Eratóstenes.
 ■ Quantidade total
 ■ Calcular tempo de execução (opcional para desafio extra)
 """
+import math
 numeros =[]
 for i in range(1, 101):
+    i = True
     numeros.append(i)
 
-print(numeros)
+
+
+for numero in numeros:
+    numeros[math.pow(numero, 2)] = False
+    for j in numeros(math.pow(numero, 2), 1, numeros):
+        if j % numero == 0:
+            numeros[j] = False
+            continue
+
+        else:
+            continue
+        
+        
 
 
