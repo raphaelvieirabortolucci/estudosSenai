@@ -9,23 +9,23 @@ algoritmo do Crivo de Eratóstenes.
 ■ Calcular tempo de execução (opcional para desafio extra)
 """
 import math
-numeros =[]
-for i in range(1, 101):
-    i = True
-    numeros.append(i)
 
+numeros = []
+for i in range(0, 101):
+    numeros.append(True)
 
+numeros[0] = False
+numeros[1] = False
 
-for numero in numeros:
-    numeros[math.pow(numero, 2)] = False
-    for j in numeros(math.pow(numero, 2), 1, numeros):
-        if j % numero == 0:
+for numero in range(2, int(math.sqrt(100)) + 1):
+    if numeros[numero]:
+        for j in range(numero * numero, 101, numero):
             numeros[j] = False
-            continue
 
-        else:
-            continue
-        
-        
+primos = []
+for i in range(2, 101):
+    if numeros[i]:
+        primos.append(i)
 
-
+print("Primos:", primos)
+print("Quantidade:", len(primos))
