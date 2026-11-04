@@ -11,6 +11,7 @@ if mediaAna >= 7.0:
         f"* Segunda nota: {nota2Ana}                      * \n" 
         f"* Terceira nota: {nota3Ana}                     *\n" 
         )
+    print("O diretor Raphael Amorin lhe deseja PARABENS")
 
 elif mediaAna >= 5.0:
     print("* Escola Soufphia Dei Santi Tech                 *\n"
@@ -43,6 +44,7 @@ if mediaDaniel >= 7.0:
         f"* Segunda nota: {nota2Daniel}                         * \n" 
         f"* Terceira nota: {nota3Daniel}                       *\n" 
         )
+    print("O diretor Raphael Amorin lhe deseja PARABENS")
 
 elif mediaDaniel >= 5.0:
     print(f"* O aluno: {aluno2}, esta de recuperação     *\n"
@@ -72,6 +74,7 @@ if mediaJonatas >= 7.0:
         f"* Segunda nota: {nota2Jonatas}                         * \n" 
         f"* Terceira nota: {nota3Jonatas}                        *\n" 
         )
+    print("O diretor Raphael Amorin lhe deseja PARABENS")
 
 elif mediaJonatas >= 5.0:
     print("* Escola Soufphia Dei Santi Tech                    *\n"
@@ -88,7 +91,7 @@ elif mediaJonatas < 5.0:
          f"* Segunda nota: {nota2Jonatas}                       * \n" 
          f"* Terceira nota: {nota3Jonatas}                      *\n")
 
- 
+
 aluno4 = "Maria Carpejani"
 nota1Maria = 9.0
 nota2Maria = 8.5
@@ -103,6 +106,7 @@ if mediaMaria >= 7.0:
         f"* Segunda nota: {nota2Maria}                         * \n" 
         f"* Terceira nota: {nota3Maria}                       *\n" 
         )
+    print("O diretor Raphael Amorin lhe deseja PARABENS")
 
 elif mediaMaria >= 5.0:
     print("* Escola Soufphia Dei Santi Tech                    *\n"
