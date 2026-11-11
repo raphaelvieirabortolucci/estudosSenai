@@ -77,22 +77,27 @@ def main():
 
         # Usa um try para lidar com o caso de digitar letras no lugar de numero
         try:
+            # Pede o primeiro numero ao usuario
             numero1 = int(input("Digite um numero: "))
 
+            # Pede o operador para o usuario
             operador = input("Escolha entre: + - * / raiz potencia %: ")
 
+            # Cria um if para a raiz, caso nao o operador escolhido nao seja a raiz, ele pede o segundo numero para se usar nas outras contas
             if operador == "raiz":
                 numero2 = 0
 
             else:
                 numero2 = int(input("Digite o segundo numero: "))
 
+            # gera um cadeia de if e elif, que de acordo com o operador digitado, ele vai chamar a função correspondente e executar a conta
             if operador == "+":
                 resultado = somar(numero1, numero2)
                 continue
 
             elif operador == "-":
                 resultado = subtrair(numero1, numero2)
+                
                 continue
             elif operador == "*":
                 resultado = multiplicar(numero1, numero2)
