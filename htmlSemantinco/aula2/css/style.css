@@ -1,0 +1,46 @@
+body{
+    background-color: #202226;
+}
+h1, h2, h3, p, figcaption, li{
+    color: aliceblue;
+}
+img {
+    width: 300px;
+    border-radius: 105px;
+}
+.perfil::before {
+    content: "🤴";
+}
+.jogos::before {
+    content: "🎮";
+}
+.variados, .historia, .souls{
+    color: rgb(73, 104, 243);
+}
+.souls::before{
+    content: "⚔️";
+}
+.listaSouls {
+    color: #AA0000;  
+}
+#bloodborne::before{
+    content: "🩸";
+}
+#dark2::before {
+    content: "🐉";
+}
+#dark::before {
+    content: "🔥";
+}
+.listaHistoria{
+    color: rgb(81, 161, 226);
+}
+#last1::before {
+    content: "👨‍👧🧟";
+}
+#last2::before {
+    content: "🤬🧟";
+}
+#pirata::before {
+    content: "🏴‍☠️🦜";
+}

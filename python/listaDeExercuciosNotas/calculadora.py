@@ -9,7 +9,7 @@ Criar uma calculadora que possui as seguintes funções:
 - Raiz quadrada
 - Potencia
 - Porcentagem
-- Desafio: Fotorial sem usar for ou while (e sem biblioteca)
+- Desafio: Fatorial sem usar for ou while (e sem biblioteca)
 
 usar def main
 """
